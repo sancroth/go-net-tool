@@ -12,7 +12,7 @@ import (
 func main() {
 	app := cli.NewApp()
 	app.Name = "DNS Records CLI"
-	app.Usage = "Allows user yo query IPs, CNAMEs, MX records"
+	app.Usage = "Allows user to query IPs, CNAMEs, MX records"
 
 	myFlags := []cli.Flag{
 		&cli.StringFlag{
